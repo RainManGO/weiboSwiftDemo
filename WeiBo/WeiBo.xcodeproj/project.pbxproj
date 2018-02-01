@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2A5A86992022DA700036143D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A86982022DA700036143D /* AppDelegate.swift */; };
-		2A5A869B2022DA700036143D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A869A2022DA700036143D /* ViewController.swift */; };
 		2A5A869E2022DA700036143D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A869C2022DA700036143D /* Main.storyboard */; };
 		2A5A86A02022DA700036143D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A869F2022DA700036143D /* Assets.xcassets */; };
 		2A5A86A32022DA700036143D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86A12022DA700036143D /* LaunchScreen.storyboard */; };
+		2A5A86AB2022DD5E0036143D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86AA2022DD5E0036143D /* Images.xcassets */; };
+		2A5A86AF2022F6880036143D /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86AE2022F6870036143D /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A5A86952022DA700036143D /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5A86982022DA700036143D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A5A869A2022DA700036143D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A5A869D2022DA700036143D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A5A869F2022DA700036143D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A5A86A22022DA700036143D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5A86A42022DA700036143D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5A86AA2022DD5E0036143D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A5A86AE2022F6870036143D /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		2A5A86972022DA700036143D /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				2A5A86AE2022F6870036143D /* Classes */,
 				2A5A86982022DA700036143D /* AppDelegate.swift */,
-				2A5A869A2022DA700036143D /* ViewController.swift */,
 				2A5A869C2022DA700036143D /* Main.storyboard */,
 				2A5A869F2022DA700036143D /* Assets.xcassets */,
 				2A5A86A12022DA700036143D /* LaunchScreen.storyboard */,
 				2A5A86A42022DA700036143D /* Info.plist */,
+				2A5A86AA2022DD5E0036143D /* Images.xcassets */,
 			);
 			path = WeiBo;
 			sourceTree = "<group>";
@@ -124,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5A86A32022DA700036143D /* LaunchScreen.storyboard in Resources */,
+				2A5A86AB2022DD5E0036143D /* Images.xcassets in Resources */,
+				2A5A86AF2022F6880036143D /* Classes in Resources */,
 				2A5A86A02022DA700036143D /* Assets.xcassets in Resources */,
 				2A5A869E2022DA700036143D /* Main.storyboard in Resources */,
 			);
@@ -136,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5A869B2022DA700036143D /* ViewController.swift in Sources */,
 				2A5A86992022DA700036143D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,11 +281,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XB9YNJTZ2K;
 				INFOPLIST_FILE = WeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZY.WeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XB9YNJTZ2K;
 				INFOPLIST_FILE = WeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZY.WeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
