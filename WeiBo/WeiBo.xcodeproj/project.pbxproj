@@ -12,7 +12,12 @@
 		2A5A86A02022DA700036143D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A869F2022DA700036143D /* Assets.xcassets */; };
 		2A5A86A32022DA700036143D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86A12022DA700036143D /* LaunchScreen.storyboard */; };
 		2A5A86AB2022DD5E0036143D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86AA2022DD5E0036143D /* Images.xcassets */; };
-		2A5A86AF2022F6880036143D /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86AE2022F6870036143D /* Classes */; };
+		2A5A86BF2022FB220036143D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A86BE2022FB220036143D /* HomeViewController.swift */; };
+		2A5A86C12022FB390036143D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A86C02022FB390036143D /* MessageViewController.swift */; };
+		2A5A86C32022FB4D0036143D /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A86C22022FB4D0036143D /* DiscoverViewController.swift */; };
+		2A5A86C52022FB5D0036143D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A86C42022FB5C0036143D /* ProfileViewController.swift */; };
+		2A5A86C7202302E60036143D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A86C6202302E60036143D /* MainViewController.swift */; };
+		2A5A86CC2023109A0036143D /* TabbarVcList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86CB2023109A0036143D /* TabbarVcList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +28,12 @@
 		2A5A86A22022DA700036143D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5A86A42022DA700036143D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5A86AA2022DD5E0036143D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2A5A86AE2022F6870036143D /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		2A5A86BE2022FB220036143D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A5A86C02022FB390036143D /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		2A5A86C22022FB4D0036143D /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		2A5A86C42022FB5C0036143D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2A5A86C6202302E60036143D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2A5A86CB2023109A0036143D /* TabbarVcList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TabbarVcList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,7 @@
 		2A5A86972022DA700036143D /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				2A5A86AE2022F6870036143D /* Classes */,
+				2A5A86B42022F9320036143D /* Classes */,
 				2A5A86982022DA700036143D /* AppDelegate.swift */,
 				2A5A869C2022DA700036143D /* Main.storyboard */,
 				2A5A869F2022DA700036143D /* Assets.xcassets */,
@@ -65,6 +75,59 @@
 				2A5A86AA2022DD5E0036143D /* Images.xcassets */,
 			);
 			path = WeiBo;
+			sourceTree = "<group>";
+		};
+		2A5A86B42022F9320036143D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A86B52022F9320036143D /* Discover */,
+				2A5A86B62022F9320036143D /* Home */,
+				2A5A86B72022F9320036143D /* Main */,
+				2A5A86B92022F9320036143D /* Message */,
+				2A5A86BA2022F9320036143D /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A5A86B52022F9320036143D /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A86C22022FB4D0036143D /* DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		2A5A86B62022F9320036143D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A86BE2022FB220036143D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2A5A86B72022F9320036143D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A86C6202302E60036143D /* MainViewController.swift */,
+				2A5A86CB2023109A0036143D /* TabbarVcList.plist */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A5A86B92022F9320036143D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A86C02022FB390036143D /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2A5A86BA2022F9320036143D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A86C42022FB5C0036143D /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5A86CC2023109A0036143D /* TabbarVcList.plist in Resources */,
 				2A5A86A32022DA700036143D /* LaunchScreen.storyboard in Resources */,
 				2A5A86AB2022DD5E0036143D /* Images.xcassets in Resources */,
-				2A5A86AF2022F6880036143D /* Classes in Resources */,
 				2A5A86A02022DA700036143D /* Assets.xcassets in Resources */,
 				2A5A869E2022DA700036143D /* Main.storyboard in Resources */,
 			);
@@ -141,7 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5A86C52022FB5D0036143D /* ProfileViewController.swift in Sources */,
 				2A5A86992022DA700036143D /* AppDelegate.swift in Sources */,
+				2A5A86C12022FB390036143D /* MessageViewController.swift in Sources */,
+				2A5A86C7202302E60036143D /* MainViewController.swift in Sources */,
+				2A5A86BF2022FB220036143D /* HomeViewController.swift in Sources */,
+				2A5A86C32022FB4D0036143D /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
