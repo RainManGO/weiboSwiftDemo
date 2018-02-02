@@ -19,6 +19,9 @@
 		2A338A9C2024068700F669C7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A338A9B2024068700F669C7 /* Profile.storyboard */; };
 		2A338A9F20240FCC00F669C7 /* OriginalItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A338A9E20240FCC00F669C7 /* OriginalItem.swift */; };
 		2A338AA12024182B00F669C7 /* ComposeBtn-UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A338AA02024182B00F669C7 /* ComposeBtn-UIButtonExtension.swift */; };
+		2A338AA620243EA600F669C7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A338AA520243EA600F669C7 /* BaseViewController.swift */; };
+		2A338AA820243FBD00F669C7 /* VistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A338AA720243FBD00F669C7 /* VistorView.swift */; };
+		2A338AAA2024400200F669C7 /* VistorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A338AA92024400200F669C7 /* VistorView.xib */; };
 		2A5A86992022DA700036143D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A86982022DA700036143D /* AppDelegate.swift */; };
 		2A5A869E2022DA700036143D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A869C2022DA700036143D /* Main.storyboard */; };
 		2A5A86A02022DA700036143D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A869F2022DA700036143D /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 		2A338A9B2024068700F669C7 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		2A338A9E20240FCC00F669C7 /* OriginalItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalItem.swift; sourceTree = "<group>"; };
 		2A338AA02024182B00F669C7 /* ComposeBtn-UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ComposeBtn-UIButtonExtension.swift"; sourceTree = "<group>"; };
+		2A338AA520243EA600F669C7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2A338AA720243FBD00F669C7 /* VistorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistorView.swift; sourceTree = "<group>"; };
+		2A338AA92024400200F669C7 /* VistorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VistorView.xib; sourceTree = "<group>"; };
 		2A5A86952022DA700036143D /* WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5A86982022DA700036143D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5A869D2022DA700036143D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				2A338A862023F63C00F669C7 /* MainViewController.swift */,
+				2A338AA520243EA600F669C7 /* BaseViewController.swift */,
+				2A338AA720243FBD00F669C7 /* VistorView.swift */,
+				2A338AA92024400200F669C7 /* VistorView.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -230,6 +239,7 @@
 				2A5A86AB2022DD5E0036143D /* Images.xcassets in Resources */,
 				2A5A86A02022DA700036143D /* Assets.xcassets in Resources */,
 				2A338A9C2024068700F669C7 /* Profile.storyboard in Resources */,
+				2A338AAA2024400200F669C7 /* VistorView.xib in Resources */,
 				2A338A922024040900F669C7 /* Message.storyboard in Resources */,
 				2A5A869E2022DA700036143D /* Main.storyboard in Resources */,
 			);
@@ -247,7 +257,9 @@
 				2A338A732023F3E100F669C7 /* DiscoverViewController.swift in Sources */,
 				2A338A782023F42900F669C7 /* HomeViewController.swift in Sources */,
 				2A338A882023F63C00F669C7 /* MainViewController.swift in Sources */,
+				2A338AA620243EA600F669C7 /* BaseViewController.swift in Sources */,
 				2A338A8A2023F64600F669C7 /* MessageViewController.swift in Sources */,
+				2A338AA820243FBD00F669C7 /* VistorView.swift in Sources */,
 				2A338A9F20240FCC00F669C7 /* OriginalItem.swift in Sources */,
 				2A338AA12024182B00F669C7 /* ComposeBtn-UIButtonExtension.swift in Sources */,
 			);
