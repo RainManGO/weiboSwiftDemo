@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A10A010202825AE00871190 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A10A00F202825AE00871190 /* TitleButton.swift */; };
+		2A10A013202831C600871190 /* PopperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A10A011202831C600871190 /* PopperViewController.swift */; };
+		2A10A014202831C600871190 /* PopperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A10A012202831C600871190 /* PopperViewController.xib */; };
+		2A10A01720283ADF00871190 /* HomePoperPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A10A01620283ADF00871190 /* HomePoperPresentationController.swift */; };
+		2A10A019202841DA00871190 /* TransitioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A10A018202841DA00871190 /* TransitioningManager.swift */; };
+		2A10A01B20284B8500871190 /* HomeModalTransMager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A10A01A20284B8500871190 /* HomeModalTransMager.swift */; };
 		2A338A732023F3E100F669C7 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A338A722023F3E100F669C7 /* DiscoverViewController.swift */; };
 		2A338A782023F42900F669C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A338A772023F42900F669C7 /* HomeViewController.swift */; };
 		2A338A882023F63C00F669C7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A338A862023F63C00F669C7 /* MainViewController.swift */; };
@@ -27,9 +33,17 @@
 		2A5A86A02022DA700036143D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A869F2022DA700036143D /* Assets.xcassets */; };
 		2A5A86A32022DA700036143D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86A12022DA700036143D /* LaunchScreen.storyboard */; };
 		2A5A86AB2022DD5E0036143D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5A86AA2022DD5E0036143D /* Images.xcassets */; };
+		2A5F46032027EE57003A1AC7 /* NavicationBarItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F46022027EE57003A1AC7 /* NavicationBarItem-Extension.swift */; };
+		2A5F46062027FE6D003A1AC7 /* AppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F46052027FE6D003A1AC7 /* AppDefine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A10A00F202825AE00871190 /* TitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
+		2A10A011202831C600871190 /* PopperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopperViewController.swift; sourceTree = "<group>"; };
+		2A10A012202831C600871190 /* PopperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopperViewController.xib; sourceTree = "<group>"; };
+		2A10A01620283ADF00871190 /* HomePoperPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePoperPresentationController.swift; sourceTree = "<group>"; };
+		2A10A018202841DA00871190 /* TransitioningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitioningManager.swift; sourceTree = "<group>"; };
+		2A10A01A20284B8500871190 /* HomeModalTransMager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModalTransMager.swift; sourceTree = "<group>"; };
 		2A338A722023F3E100F669C7 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		2A338A772023F42900F669C7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2A338A862023F63C00F669C7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +66,8 @@
 		2A5A86A22022DA700036143D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5A86A42022DA700036143D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5A86AA2022DD5E0036143D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A5F46022027EE57003A1AC7 /* NavicationBarItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavicationBarItem-Extension.swift"; sourceTree = "<group>"; };
+		2A5F46052027FE6D003A1AC7 /* AppDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +81,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A10A00E2028251900871190 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				2A338A9E20240FCC00F669C7 /* OriginalItem.swift */,
+				2A10A00F202825AE00871190 /* TitleButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		2A10A01520283A8800871190 /* UIPoper */ = {
+			isa = PBXGroup;
+			children = (
+				2A10A011202831C600871190 /* PopperViewController.swift */,
+				2A10A012202831C600871190 /* PopperViewController.xib */,
+				2A10A01620283ADF00871190 /* HomePoperPresentationController.swift */,
+				2A10A01A20284B8500871190 /* HomeModalTransMager.swift */,
+				2A10A018202841DA00871190 /* TransitioningManager.swift */,
+			);
+			path = UIPoper;
+			sourceTree = "<group>";
+		};
 		2A338A9D20240C6D00F669C7 /* CommomUI */ = {
 			isa = PBXGroup;
 			children = (
+				2A10A00E2028251900871190 /* Custom */,
 				2A338AA32024210A00F669C7 /* Extension */,
-				2A338A9E20240FCC00F669C7 /* OriginalItem.swift */,
 			);
 			path = CommomUI;
 			sourceTree = "<group>";
@@ -78,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				2A338AA02024182B00F669C7 /* ComposeBtn-UIButtonExtension.swift */,
+				2A5F46022027EE57003A1AC7 /* NavicationBarItem-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -101,6 +139,7 @@
 		2A5A86972022DA700036143D /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				2A5F46042027FE2E003A1AC7 /* Tools */,
 				2A338A9D20240C6D00F669C7 /* CommomUI */,
 				2A5A86B42022F9320036143D /* Classes */,
 				2A5A86982022DA700036143D /* AppDelegate.swift */,
@@ -138,6 +177,7 @@
 		2A5A86B62022F9320036143D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2A10A01520283A8800871190 /* UIPoper */,
 				2A338A772023F42900F669C7 /* HomeViewController.swift */,
 				2A338A95202404AA00F669C7 /* Home.storyboard */,
 			);
@@ -171,6 +211,14 @@
 				2A338A9B2024068700F669C7 /* Profile.storyboard */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		2A5F46042027FE2E003A1AC7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2A5F46052027FE6D003A1AC7 /* AppDefine.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +286,7 @@
 				2A338A9A202404FD00F669C7 /* Space.storyboard in Resources */,
 				2A5A86AB2022DD5E0036143D /* Images.xcassets in Resources */,
 				2A5A86A02022DA700036143D /* Assets.xcassets in Resources */,
+				2A10A014202831C600871190 /* PopperViewController.xib in Resources */,
 				2A338A9C2024068700F669C7 /* Profile.storyboard in Resources */,
 				2A338AAA2024400200F669C7 /* VistorView.xib in Resources */,
 				2A338A922024040900F669C7 /* Message.storyboard in Resources */,
@@ -254,13 +303,20 @@
 			files = (
 				2A338A8C2023F64C00F669C7 /* ProfileViewController.swift in Sources */,
 				2A5A86992022DA700036143D /* AppDelegate.swift in Sources */,
+				2A5F46062027FE6D003A1AC7 /* AppDefine.swift in Sources */,
+				2A5F46032027EE57003A1AC7 /* NavicationBarItem-Extension.swift in Sources */,
 				2A338A732023F3E100F669C7 /* DiscoverViewController.swift in Sources */,
 				2A338A782023F42900F669C7 /* HomeViewController.swift in Sources */,
+				2A10A013202831C600871190 /* PopperViewController.swift in Sources */,
 				2A338A882023F63C00F669C7 /* MainViewController.swift in Sources */,
 				2A338AA620243EA600F669C7 /* BaseViewController.swift in Sources */,
+				2A10A019202841DA00871190 /* TransitioningManager.swift in Sources */,
 				2A338A8A2023F64600F669C7 /* MessageViewController.swift in Sources */,
 				2A338AA820243FBD00F669C7 /* VistorView.swift in Sources */,
+				2A10A01720283ADF00871190 /* HomePoperPresentationController.swift in Sources */,
 				2A338A9F20240FCC00F669C7 /* OriginalItem.swift in Sources */,
+				2A10A01B20284B8500871190 /* HomeModalTransMager.swift in Sources */,
+				2A10A010202825AE00871190 /* TitleButton.swift in Sources */,
 				2A338AA12024182B00F669C7 /* ComposeBtn-UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

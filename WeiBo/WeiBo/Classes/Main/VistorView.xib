@@ -70,6 +70,8 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="iconView" destination="Hy3-95-ztF" id="Dz2-ff-We7"/>
+                <outlet property="loginBtn" destination="2Dt-S9-b1u" id="8nI-1w-Eea"/>
+                <outlet property="registBtn" destination="3KL-wv-rPd" id="5Ks-xW-HXr"/>
                 <outlet property="remindLabel" destination="4VU-7a-ATj" id="WUJ-h8-Win"/>
                 <outlet property="rotationView" destination="EOi-eG-KPo" id="Dys-m2-DSd"/>
             </connections>

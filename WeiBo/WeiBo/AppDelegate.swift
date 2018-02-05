@@ -15,8 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-
+        defaultStyle()
         return true
     }
 }
+
+
+//默认系统样式配置
+extension AppDelegate{
+    
+    func defaultStyle(){
+        UINavigationBar.appearance().tintColor = nav_barItem_color
+    }
+}
+
 
